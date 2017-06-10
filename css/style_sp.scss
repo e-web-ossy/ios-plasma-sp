@@ -1,0 +1,81 @@
+@import "reset.scss";
+
+@import url("https://fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+
+#sec_1 {
+  background: #8dc556;
+  margin-bottom: 10px;
+  img {
+    width: 100%;
+  }
+  p {
+    color: #fff;
+    font-size: 10px;
+    line-height: 1.5;
+    padding: 0 1em 1em;
+  }
+}
+
+#sec_2 {
+  margin-bottom: 10px;
+  background: #549b35;
+  padding: 10px;
+  img {
+    width: 100%;
+  }
+  .inner {
+    position: relative;
+    .btn1, .btn2, .btn3, .btn4 {
+      display: block;
+      position: absolute;
+      left: 20%;
+      width: 60%;
+    }
+    .btn1 {
+      top: 21%;
+    }
+    .btn2 {
+      top: 40.2%;
+    }
+    .btn3 {
+      top: 59.2%;
+    }
+    .btn4 {
+      top: 78%;
+    }
+  }
+  .text {
+    background: #fff;
+    padding: 0 10px 10px;
+    p {
+      font-size: 100%;
+      line-height: 1.3;
+      margin-bottom: 0.1em;
+      a {
+        color: #000;
+      }
+    }
+  }
+  .inner-bottom {
+    background: #fff;
+    padding: 0 10px 20px;
+    display: flex;
+    // -webkit-justify-content: center;
+    justify-content: center;
+    // -webkit-align-items: center;
+    align-items: center;
+    img {
+      width: 50%;
+      height: auto;
+    }
+  }
+}
+
+#sec_3 {
+  margin-bottom: 10px;
+  position: relative;
+  img {
+    position: absolute;
+    width: 100%;
+  }
+}
